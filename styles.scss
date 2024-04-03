@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Honk", system-ui;
+  text-decoration: none;
+}
+
+$borderradius: 50px;
+$backgroundcolor: #3b3781;
+
+.header {
+  padding: 35px 12%;
+  /* background-color: #063142; */
+  text-align: center;
+}
+
+.home {
+  width: 100%;
+  padding: 35px 12%;
+  /*   background-color: #4a1c0d; */
+  /* position: relative;
+    display: inline-block; */
+}
+
+.home h2,
+p {
+  text-align: center;
+  font-weight: 800;
+  /*  align-content: center; */
+  /* display: flex;
+    justify-content: center;
+    position: relative; */
+}
+
+.home a {
+  align-items: center;
+  display: flex;
+  width: 55%;
+  /* border: 1px solid black; */
+  /* position: relative; */
+  /* display: inline-block; */
+  /* padding: 35px 12%; */
+  /* justify-content: left; */
+}
+
+body {
+  background: url(/images/bg.jpg);
+  /* height: 500px; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.home img {
+  position: relative;
+  padding: 30px;
+  border-radius: $borderradius;
+  /* display: inline-block; */
+  /* float: left; */
+}
+
+img {
+  max-width: 500px;
+}
+
+.top {
+  position: relative;
+  display: flex;
+  justify-content: right;
+  font-weight: 900;
+}
+
+.header h1,
+a {
+  color: darkseagreen;
+}
+h2 {
+  color: darkorchid;
+}
+p {
+  color: darksalmon;
+}
+
+.youngNfree a {
+  color: darkblue;
+  font-size: 1.3em;
+}
+
+.Gawvi a {
+  color: darkgoldenrod;
+  font-size: 1.3em;
+}
+
+.Lacrae a {
+  color: darkkhaki;
+  font-size: 1.3em;
+}
+
+.forrestfrank a {
+  color: darkviolet;
+  font-size: 1.3em;
+}
+
+.hulvey a {
+  color: darkred;
+  font-size: 1.3em;
+}
+
+/* Form CSS */
+
+.formIMG {
+  background-image: url(/images/bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  width: 500px;
+  margin: auto;
+  margin-top: 160px;
+  color: #9893d6;
+  border: 3px #9893d6 solid;
+  border-radius: 25px;
+}
+
+textarea {
+  margin: 10px;
+  width: 95%;
+  height: 95%;
+}
+
+.form label {
+  font: 1.3em sans-serif;
+  margin-left: 11px;
+}
+
+.form input {
+  width: 180px;
+  height: 30px;
+  margin: 11px;
+}
+
+.form h1 {
+  font: 2em sans-serif;
+  color: 3b3781;
+  text-align: center;
+}
+
+#submit {
+  text-align: center;
+  width: 80px;
+  font: sans-serif;
+  cursor: pointer;
+}
+
+#submit:hover {
+  background-color: $backgroundcolor;
+}
